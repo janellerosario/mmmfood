@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PuppyListItem from '../FoodListItem/FoodListItem.jsx';
+import FoodListItem from '../FoodListItem/FoodListItem.jsx';
 import style from './FoodList.css';
 
 class FoodList extends Component {

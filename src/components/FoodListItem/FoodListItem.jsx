@@ -7,9 +7,9 @@ const FoodListItem = props => (
     <div className={style['food-picture']}>
       <img src={props.url} alt={props.name}/>
     </div>
-    <p>Likes: {props.likes}</p>
+    <p>People drooling: {props.likes}</p>
     <button onClick={() => props.likeFood(props.id)}>
-      Drooling!
+      Drool!
     </button>
     <button onClick={() => props.deleteFood(props.id)}>
       Delete

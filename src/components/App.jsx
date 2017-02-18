@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FoodForm from './FoodForm/FoodForm.jsx';
 import FoodList from './FoodList/FoodList.jsx';
+import FoodListItem from './FoodListItem/FoodListItem.jsx';
 import './normalize.css';
 import style from './App.css';
 
@@ -17,7 +18,7 @@ class App extends Component {
   }
 
   getAllFood() {
-    fetch(`/api/food`)
+    fetch(`/api/food/`)
     .then(r => r.json())
     .then((data) => {
       this.setState({

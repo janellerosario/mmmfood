@@ -3,19 +3,20 @@ h4 {
 }
 
 img {
-  width: 150px;
+  width: 500px;
+  height: 300px;
 }
 
 .food-list-item {
-  background-color: #64E279;
+  background-color: lightpink;
   box-shadow: 0 2px 3px #222;
   margin: 10px;
   text-align: center;
-  width: 200px;
+  width: 500px;
 }
 
 .food-list-item button {
-  background-color: #64E279;
-  border: 1px solid #47A76E;
+  background-color: firebrick;
+  border: 1px solid black;
   margin: 2px;
 }

@@ -1,6 +1,6 @@
 BEGIN;
 
-CREATE TABLE food (
+CREATE TABLE mmmfood (
   id SERIAL PRIMARY KEY,
   name VARCHAR NOT NULL,
   url TEXT NOT NULL,
