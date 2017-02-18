@@ -17,4 +17,4 @@ app.use(bodyParser.json());
 
 app.use('/api/food', foodRouter);
 
-app.listen(PORT, () => console.log('MMMM Im hungry! listening on', PORT));
+app.listen(PORT, () => console.log('Eating on', PORT));
