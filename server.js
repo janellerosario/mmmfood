@@ -4,7 +4,7 @@ const express     = require('express');
 const logger      = require('morgan');
 const path        = require('path');
 const bodyParser  = require('body-parser');
-const puppyRouter = require('./routes/api/food');
+const foodRouter = require('./routes/api/food');
 
 const app         = express();
 const PORT        = process.argv[2] || process.env.port || 3000;
@@ -17,4 +17,4 @@ app.use(bodyParser.json());
 
 app.use('/api/food', foodRouter);
 
-app.listen(PORT, () => console.log('Eating on', PORT));
+app.listen(PORT, () => console.log('Eating on port', PORT));

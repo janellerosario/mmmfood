@@ -8,7 +8,6 @@ router.get('/', getAllFood, (req, res) => {
   res.json(res.food || []);
 });
 
-
 router.post('/', addFood, (req, res) => {
   res.json({ message: '#foodporn has been successfully added!' });
 });
