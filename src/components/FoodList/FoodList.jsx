@@ -23,7 +23,7 @@ class FoodList extends Component {
   }
 
   render(){
-    console.log(style)
+    // console.log(style)
     return (
       <div id={style['food-list-container']}>
         {this.renderFood()}

@@ -75,8 +75,8 @@ class App extends Component {
       },
       method: 'POST',
       body: JSON.stringify({
-        name: this.state.foodForm,
-        url: this.state.foodPicURL
+      name: this.state.foodForm,
+      url: this.state.foodPicURL
       })
     })
     .then(this.setState({
@@ -85,7 +85,7 @@ class App extends Component {
     }))
     .then(this.getAllFood())
     .catch(err => console.log(err));
-  }
+    }
 
     render(){
     return (

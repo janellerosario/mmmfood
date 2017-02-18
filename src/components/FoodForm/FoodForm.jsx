@@ -8,13 +8,13 @@ class FoodForm extends Component {
       <div id={style['form-container']}>
         <input
           type="text"
-          placeholder="name/desc"
+          placeholder="dish name"
           value={this.props.foodForm}
           onChange={this.props.updateFoodForm}
         />
         <input
           type="text"
-          placeholder="#foodporn URL"
+          placeholder="#foodporn photo URL"
           value={this.props.foodPicRL}
           onChange={this.props.updateFoodURL}
         />

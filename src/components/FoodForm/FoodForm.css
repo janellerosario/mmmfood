@@ -6,6 +6,8 @@
 
 #form-container input {
   margin: 0 5px;
+  font-size: 18px;
+  line-height: 40px;
 }
 
 #form-container button {

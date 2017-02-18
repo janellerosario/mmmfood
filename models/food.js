@@ -1,7 +1,7 @@
 const db = require('../db/db');
 
 function getAllFood(req, res, next) {
-  db.any('SELECT * from mmmfood;')
+  db.any('SELECT * from mmmfood ORDER by likes DESC;')
     .then((food) => {
       res.food = food;
       next();
